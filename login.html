@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="learn">
+        <h1><b>CRM</b> user registration form<br />watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. <br />
+          Watching scripted tutorials is great, but understanding how <br />
+          developers think is invaluable.
+        </p>
+      </section>
+
+      <section>
+        <div class="cta">
+          <p><span> Login here</span></p>
+        </div>
+
+        <div class="sign-up">
+          <form action="#" class="signup-form" data-netlify="true">
+            <div class="form-btn">
+              <input
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                required
+              />
+              <img class="icon" src="./Images/icon-error.svg" alt="Error" />
+              <p class="msg">Looks like this is not an email</p>
+            </div>
+
+            <div class="form-btn">
+              <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+              <img class="icon" src="./Images/icon-error.svg" alt="Error" />
+              <p class="msg">Password cannot be empty</p>
+            </div>
+
+            <div
+              style="
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 100%;
+              "
+            >
+              <div style="display: flex; align-items: center">
+                <input type="checkbox" name="remenber me" id="" />
+                <p>Remember me</p>
+              </div>
+            </div>
+
+            <input id="submit-btn" type="button" value="Login" />
+
+            <p class="terms">
+              By clicking the button, you are agreeing to our
+              <span><a href="./index.html">Register</a></span>
+            </p>
+            <p class="terms">
+              <span><a href=".#">Forgot password</a></span>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
